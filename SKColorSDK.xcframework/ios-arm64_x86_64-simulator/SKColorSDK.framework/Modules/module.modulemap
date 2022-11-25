@@ -1,0 +1,11 @@
+framework module SKColorSDK {
+  umbrella header "SKColorSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SKColorSDK.Swift {
+    header "SKColorSDK-Swift.h"
+    requires objc
+}
