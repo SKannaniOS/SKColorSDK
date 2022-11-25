@@ -1,3 +1,6 @@
+// swift-tools-version:5.3
+// swift-tools-version:5.2
+// swift-tools-version:5.1
 // swift-tools-version:5.0
 
 import PackageDescription
@@ -15,5 +18,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SKColorSDK",
-            path: "SKColorSDK.xcframework")
+            path: "SKColorSDK.xcframework"
+        )
     ])
